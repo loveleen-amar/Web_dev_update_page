@@ -1,0 +1,88 @@
+body{
+	font-family: 'Kanit', sans-serif;
+	/*background: url("https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg");*/
+	/*background-blend-mode: */
+
+}
+.background_container{
+	position: absolute;
+	overflow: hidden;
+	background-color: #5C97FF;
+}
+
+ img{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: auto;
+	z-index: 1;
+	opacity: 0.1;
+
+}
+#jum{
+	text-shadow: 2px 2px black;
+	color:rgb(233, 234, 222);
+	background: #373B44;  /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+	background-image: linear-gradient(#26307F,#100e47);
+	/*background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+    box-shadow:  5px 5px 100px rgba(0,0,0,0.9);
+}
+#main_block{
+	margin: 60px auto;
+	width: 35%;
+	/*text-align: center;*/
+	border: 0.5px solid grey;
+	padding: 5px 10px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 18px;
+	border-radius: 3%;
+	box-shadow: 2.5px 2.5px 13px rgba(0,0,0,0.3);
+	background-color: white;
+	background-color: rgb(213, 224, 242);
+
+
+}
+.container{
+	text-align: center;
+	
+}
+.tab{
+	width: 50%;
+	text-align: center;
+	font-size: 20px;
+	background-color: rgb(181, 192, 209);
+}
+.nav-tabs{
+	padding-top: 10px;
+}
+
+.form-group{
+	width: 100%;
+	padding-left: 13px;
+	padding-right: 13px;
+
+}
+label{
+
+	border:0.5px solid grey;
+}
+/*input{
+	box-sizing: border-box;
+	padding-left: 3px;
+}*/
+
+#firstFieldRegister{
+	padding-top: 20px;
+}
+
+#firstFieldLogin{
+	padding-top: 30px;
+}
+.button{
+	text-align: center;
+}
